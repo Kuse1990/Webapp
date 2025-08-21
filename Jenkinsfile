@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "seth762/webapp-jenkins:v1"
+    IMAGE = "seth762/webapp-release:v2"
   }
 
   stages {
